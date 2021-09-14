@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    height: 600px;
+}
+
+.slides {
+    width: 900px;
+    height: 600px;
+}
+ 
+img {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.active {
+    display: flex;
+    object-fit: cover;
+    width: 900px;
+    height: 600px;
+}
